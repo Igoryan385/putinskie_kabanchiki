@@ -1,1 +1,0 @@
-# putinskie_kabanchiki
