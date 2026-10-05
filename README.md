@@ -1,1 +1,2 @@
 # putinskie_kabanchiki
+ароаповпогшвдщаппавлода
