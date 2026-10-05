@@ -13,8 +13,7 @@ class TestCaesarCipher(unittest.TestCase):
     def test_non_alpha(self):
         self.assertEqual(caesar_encrypt("Hello, World! 123", 3), "Khoor, Zruog! 123")
 
-    def test_type_error_handling(self):
-        # Проверка обработки исключения при передаче неверных типов
+    def Test_type_error_handling(self):
         with self.assertRaises(TypeError):
             caesar_encrypt(12345, 3)
 
