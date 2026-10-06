@@ -9,13 +9,16 @@ def caesar_encrypt(text, shift):
             encrypted_text += char
     return encrypted_text
 
-
 def caesar_decrypt(encrypted_text, shift):
     return caesar_encrypt(encrypted_text, -shift)
 
-
 if __name__ == "__main__":
+<<<<<<< HEAD
     text = "Hello World"
     shift = 5
+=======
+    text = "Secret Message"
+    shift = 3
+>>>>>>> feature-branch
     encrypted = caesar_encrypt(text, shift)
     print(f"Зашифровано: {encrypted}")
