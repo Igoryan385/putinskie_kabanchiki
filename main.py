@@ -16,6 +16,6 @@ def caesar_decrypt(encrypted_text, shift):
 
 if __name__ == "__main__":
     text = "Hello World"
-    shift = 3
+    shift = 5
     encrypted = caesar_encrypt(text, shift)
     print(f"Зашифровано: {encrypted}")
